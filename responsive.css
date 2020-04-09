@@ -13,8 +13,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
   }
-  .latest-contents {
-  }
+
   .latest-description a {
     margin-bottom: 5px;
     color: black;
