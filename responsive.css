@@ -61,6 +61,9 @@
   .md-none {
     display: none;
   }
+  .md-block {
+    display: block;
+  }
 
   .section-1 {
     margin-top: 125px;
@@ -96,8 +99,8 @@
     flex-direction: column;
   }
   .latest-image img {
-    width: 75px;
-    height: 75px;
+    max-width: 75px;
+    max-height: 75px;
     margin-right: 10px;
   }
   .latest-description h6 {
