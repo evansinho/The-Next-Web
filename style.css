@@ -65,17 +65,16 @@ body {
 
 .nav-bar-2 {
   background-color: #fdfdfd;
-  padding: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .nav-bar-2 i {
-  padding: 10px;
-  border-left: 1px solid #b6b6b6;
+  padding: 15px;
+  border-left: 1px solid #c7c7c7;
   height: 100%;
-  color: #b6b6b6;
+  color: #c7c7c7;
 }
 
 .third-links {
@@ -93,7 +92,7 @@ body {
   text-decoration: none;
   color: #b6b6b6;
   font-size: 14px;
-  font-family: 'Play', sans-serif;
+  font-family: "Play", sans-serif;
 }
 
 .third-links li a:hover {
@@ -111,4 +110,68 @@ body {
   text-decoration: none;
   color: black;
   padding: 15px;
+}
+
+/*section-1*/
+
+.section-1 {
+  margin-top: 125px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  height: 60vh;
+}
+
+.section-1-1 {
+  grid-area: 1/1/3/3;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/USSanate-796x420.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.section-1-2 {
+  grid-area: 1/3/2/3;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/brand-authority-796x417.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.section-1-3 {
+  grid-area: 2/3/3/3;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Google-ban-zoom-796x531.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.inline {
+  display: inline;
+}
+
+.section-1 div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.section-1 div h5 {
+  color: white;
+}
+
+.section-1 div h2 {
+  color: white;
+}
+
+.section-1 div ul li {
+  font-size: 13px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.section-1 div ul li a {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 0.6);
 }
