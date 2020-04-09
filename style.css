@@ -269,6 +269,7 @@ body {
   margin: 0 auto;
 }
 .section-3-item {
+  position: relative;
   width: 25%;
   margin: 20px 10px;
 }
