@@ -15,7 +15,7 @@
 
 ### Prerequisites
 
--Any kind of browser suooprting CSS3 and HTML5
+-Any kind of browser supporting CSS3 and HTML5
 
 ### Setup
 
