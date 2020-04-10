@@ -33,6 +33,10 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .section-4-contents {
+    width: 50%;
+  }
 }
 @media screen and (min-width: 768px) {
   .section-1 .section-1-1 h2 {
@@ -108,6 +112,10 @@
   }
   .latest-description h6 {
     margin-top: 5px;
+  }
+
+  .section-4-contents {
+    width: 100%;
   }
 }
 
