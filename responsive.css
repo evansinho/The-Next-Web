@@ -37,6 +37,9 @@
   .section-4-contents {
     width: 50%;
   }
+  .section-5-item {
+    width: 33.33%;
+  }
 }
 @media screen and (min-width: 768px) {
   .section-1 .section-1-1 h2 {
@@ -116,6 +119,18 @@
 
   .section-4-contents {
     width: 100%;
+  }
+  .section-5-item {
+    width: 100%;
+    flex-direction: row;
+  }
+  .section-5-item img {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+  }
+  .section-5-item h2 a {
+    font-size: 14px;
   }
 }
 
