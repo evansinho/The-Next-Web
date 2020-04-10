@@ -378,43 +378,57 @@ body {
 
 .image-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/slack-interface-customize-368x276.jpg')
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/slack-interface-customize-368x276.jpg")
       100% 100% no-repeat;
+  background-size: cover;
 }
 
 .image-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_26d7fdfc-368x276.png')
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_26d7fdfc-368x276.png")
       100% 100% no-repeat;
+  background-size: cover;
 }
 
 .image-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule-368x276.jpg') 100% 100% no-repeat;
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/skype-video-calling-on-microsoft-edge1-368x276.jpg")
+      100% 100% no-repeat;
+  background-size: cover;
+}
+
+.image-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule-368x276.jpg")
+      100% 100% no-repeat;
 }
 
 .image-5 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/128939125-368x276.jpg')
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/128939125-368x276.jpg")
       100% 100% no-repeat;
+  background-size: cover;
 }
 
 .image-6 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg')
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg")
       100% 100% no-repeat;
+  background-size: cover;
 }
 
 .image-7 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg')
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg")
       100% 100% no-repeat;
+  background-size: cover;
 }
 
 .image-8 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/montreux-qello-jazz-festival-free-shows-live-music-368x276.jpg')
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/montreux-qello-jazz-festival-free-shows-live-music-368x276.jpg")
       100% 100% no-repeat;
+  background-size: cover;
 }
 
 .section-4 {
@@ -442,6 +456,7 @@ body {
   color: #fff;
   margin-left: 10px;
   font-weight: 800;
+  font-family: Play, sans-serif;
 }
 
 .section-4-descriptions a {
@@ -458,7 +473,8 @@ body {
 .section-4-descriptions #image-text {
   color: #fff;
   margin-left: 10px;
-  font-size: 25px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
   font-weight: 800;
   text-decoration: none;
 }
@@ -565,12 +581,12 @@ footer {
   text-align: center;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: gray;
 }
 
-footer li{
+footer li {
   list-style: none;
   padding: 10px;
 }
@@ -596,7 +612,7 @@ footer li{
   margin: 5px;
   height: px;
   width: px;
-} 
+}
 
 .footer-links-social i {
   color: #fff;
