@@ -10,6 +10,38 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+.section-3-header ul li {
+  font-size: 16px;
+  line-height: 18px;
+  color: #f42;
+  text-decoration: none;
+  margin: 0 5px;
+  display: inline;
+}
+
+.item-footer a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #555;
+}
+
+.section-3-header ul li a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #f42;
+  text-decoration: none;
+}
+
+footer li {
+  list-style: none;
+  padding: 10px;
+}
+
 /* nav bar */
 
 .nav-bar {
@@ -119,7 +151,7 @@ body {
 
 .nav-bar-3 {
   width: 100%;
-  background-color: #ffdd33;
+  background-color: #fd3;
   padding: 8px 0 8px 10px;
 }
 
@@ -130,10 +162,11 @@ body {
   padding: 15px;
 }
 
-/*section-1*/
+/* section-1 */
 
 .tsv-logo {
-  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg)
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg)
     no-repeat;
   width: 40%;
   height: 100%;
@@ -152,7 +185,8 @@ body {
 
 .section-1-1 {
   grid-area: 1/1/3/3;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom right,
       rgba(255, 69, 36, 0.8),
       rgba(29, 8, 5, 0.8)
@@ -165,7 +199,8 @@ body {
 
 .section-1-2 {
   grid-area: 1/3/2/3;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/brand-authority-796x417.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -174,7 +209,8 @@ body {
 
 .section-1-3 {
   grid-area: 2/3/3/3;
-  background-image: linear-gradient(rgba(80, 40, 40, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image:
+    linear-gradient(rgba(80, 40, 40, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Google-ban-zoom-796x531.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -204,6 +240,7 @@ body {
   font-size: 13px;
   color: hsla(0, 0%, 100%, 0.6);
 }
+
 .section-1 div ul li a {
   text-decoration: none;
   color: hsla(0, 0%, 100%, 0.6);
@@ -244,7 +281,7 @@ body {
   max-height: 100%;
 }
 
-.latest-description a {
+.latest-description-a {
   margin-bottom: 5px;
   color: black;
   font-weight: bold;
@@ -260,7 +297,7 @@ body {
   color: #898989;
 }
 
-/*section-3*/
+/* section-3 */
 
 .section-3 {
   padding: 10px;
@@ -272,12 +309,14 @@ body {
   display: flex;
   margin: 0 auto;
 }
+
 .section-3-item {
   position: relative;
   width: 25%;
   margin: 20px 10px;
   z-index: -10;
 }
+
 .item-h1 {
   width: 100%;
   background: #f42;
@@ -316,7 +355,7 @@ body {
   padding: 20px;
 }
 
-.item-body ul li {
+.item-body-ul-li {
   list-style: none;
   font-size: 13px;
   color: #555;
@@ -339,12 +378,6 @@ body {
   padding: 20px;
 }
 
-.item-footer a {
-  text-decoration: none;
-  font-size: 13px;
-  color: #555;
-}
-
 .section-3-header {
   max-width: 1152px;
   display: flex;
@@ -352,6 +385,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .section-3-header h2 {
   color: #f42;
   font-size: 25px;
@@ -359,75 +393,68 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.section-3-header ul li {
-  font-size: 16px;
-  line-height: 18px;
-  color: #f42;
-  text-decoration: none;
-  margin: 0 5px;
-  display: inline;
-}
-.section-3-header ul li a {
-  font-size: 16px;
-  line-height: 18px;
-  color: #f42;
-  text-decoration: none;
-}
-
 /* section 4 */
 
 .image-1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/slack-interface-customize-368x276.jpg")
-      100% 100% no-repeat;
+    100% 100% no-repeat;
   background-size: cover;
 }
 
 .image-2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_26d7fdfc-368x276.png")
-      100% 100% no-repeat;
+    100% 100% no-repeat;
   background-size: cover;
 }
 
 .image-3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/skype-video-calling-on-microsoft-edge1-368x276.jpg")
-      100% 100% no-repeat;
+    100% 100% no-repeat;
   background-size: cover;
 }
 
 .image-4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule-368x276.jpg")
-      100% 100% no-repeat;
+    100% 100% no-repeat;
 }
 
 .image-5 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/128939125-368x276.jpg")
-      100% 100% no-repeat;
+    100% 100% no-repeat;
   background-size: cover;
 }
 
 .image-6 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg")
-      100% 100% no-repeat;
+    100% 100% no-repeat;
   background-size: cover;
 }
 
 .image-7 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg")
-      100% 100% no-repeat;
+    100% 100% no-repeat;
   background-size: cover;
 }
 
 .image-8 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/montreux-qello-jazz-festival-free-shows-live-music-368x276.jpg")
-      100% 100% no-repeat;
+    100% 100% no-repeat;
   background-size: cover;
 }
 
@@ -459,7 +486,7 @@ body {
   font-family: Play, sans-serif;
 }
 
-.section-4-descriptions a {
+.section-4-descriptions-a {
   color: grey;
   margin: 0 0 10px 10px;
   text-decoration: none;
@@ -489,6 +516,7 @@ body {
   justify-content: space-between;
   margin: 5px 0;
 }
+
 .content-below img {
   width: 96px;
   height: 96px;
@@ -524,7 +552,7 @@ body {
   border-bottom: 1px solid rgb(238, 238, 238);
 }
 
-/*section-5*/
+/* section-5 */
 .section-5 {
   padding: 10px;
   max-width: 1152px;
@@ -535,6 +563,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
 .section-5-item {
   width: 25%;
   display: flex;
@@ -547,7 +576,7 @@ body {
   max-height: 100%;
 }
 
-.section-5-item h2 a {
+.section-5-item-h2-a {
   font-size: 16px;
   margin-bottom: 0;
   text-decoration: none;
@@ -581,16 +610,6 @@ footer {
   text-align: center;
 }
 
-footer a {
-  text-decoration: none;
-  color: gray;
-}
-
-footer li {
-  list-style: none;
-  padding: 10px;
-}
-
 .footer-links {
   background: #131313;
 }
@@ -606,9 +625,9 @@ footer li {
   justify-content: center;
 }
 
-.footer-links-social li {
+.footer-links-social-li {
   border-radius: 50%;
-  background-color: #333333;
+  background-color: #333;
   margin: 5px;
   height: px;
   width: px;
@@ -624,13 +643,13 @@ footer li {
   justify-content: center;
 }
 
-.footer-links-menu a {
+.footer-links-menu-a {
   font-size: 14px;
   font-family: "Play", sans-serif;
 }
 
 .footer-legal {
-  background-color: #000000;
+  background-color: #000;
   color: #fff;
   padding: 40px;
   font-size: 12px;
