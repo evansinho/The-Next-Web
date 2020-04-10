@@ -237,9 +237,6 @@ body {
   overflow: hidden;
 }
 
-.latest-image {
-}
-
 .latest-image img {
   max-width: 100%;
   max-height: 100%;
@@ -272,6 +269,7 @@ body {
   position: relative;
   width: 25%;
   margin: 20px 10px;
+  z-index: -10;
 }
 .item-h1 {
   width: 100%;
@@ -356,7 +354,6 @@ body {
 
 .section-3-header ul li {
   font-size: 16px;
-  float: right;
   line-height: 18px;
   color: #f42;
   text-decoration: none;
@@ -365,7 +362,6 @@ body {
 }
 .section-3-header ul li a {
   font-size: 16px;
-  float: right;
   line-height: 18px;
   color: #f42;
   text-decoration: none;
