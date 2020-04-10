@@ -84,7 +84,8 @@
 
   .section-1-1 {
     grid-area: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/USSanate-796x420.jpg);
     height: 250px;
   }
