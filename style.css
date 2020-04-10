@@ -140,7 +140,7 @@ body {
 }
 
 .section-1 {
-  margin-top: 125px;
+  margin: 110px 0 30px 0;
   display: grid;
   width: 100%;
   grid-template-columns: repeat(3, 1fr);
@@ -212,7 +212,7 @@ body {
 /* section 2 */
 
 .section-2 {
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   max-width: 1152px;
   padding: 50px 0 30px 0;
 }
@@ -264,6 +264,7 @@ body {
 
 .section-3 {
   padding: 10px;
+  margin-bottom: 30px;
 }
 
 .section-3-flex {
@@ -377,66 +378,50 @@ body {
 
 .image-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/slack-interface-customize-368x276.jpg");
-
-  background-repeat: no-repeat;
-  background-size: cover;
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/slack-interface-customize-368x276.jpg')
+      100% 100% no-repeat;
 }
 
 .image-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_26d7fdfc-368x276.png")
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_26d7fdfc-368x276.png')
       100% 100% no-repeat;
-  background-size: cover;
 }
 
 .image-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/skype-video-calling-on-microsoft-edge1-368x276.jpg")
-      100% 100% no-repeat;
-  background-size: cover;
-}
-
-.image-4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule-368x276.jpg")
-      100% 100% no-repeat;
-  background-size: cover;
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule-368x276.jpg') 100% 100% no-repeat;
 }
 
 .image-5 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/128939125-368x276.jpg")
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/128939125-368x276.jpg')
       100% 100% no-repeat;
-  background-size: cover;
 }
 
 .image-6 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg")
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg')
       100% 100% no-repeat;
-  background-size: cover;
 }
 
 .image-7 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg")
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg')
       100% 100% no-repeat;
-  background-size: cover;
 }
 
 .image-8 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/montreux-qello-jazz-festival-free-shows-live-music-368x276.jpg")
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/montreux-qello-jazz-festival-free-shows-live-music-368x276.jpg')
       100% 100% no-repeat;
-  background-size: cover;
 }
 
 .section-4 {
   max-width: 1152px;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
 }
 
 .section-4-contents {
@@ -527,7 +512,7 @@ body {
 .section-5 {
   padding: 10px;
   max-width: 1152px;
-  margin: 30px auto;
+  margin: 0 auto 30px auto;
 }
 
 .section-5-content {
@@ -573,4 +558,81 @@ body {
 .section52 {
   color: #555;
   font-size: 14px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: gray;
+}
+
+footer li{
+  list-style: none;
+  padding: 10px;
+}
+
+.footer-links {
+  background: #131313;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 25%;
+  padding: 20px;
+}
+
+.footer-links-social {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links-social li {
+  border-radius: 50%;
+  background-color: #333333;
+  margin: 5px;
+  height: px;
+  width: px;
+} 
+
+.footer-links-social i {
+  color: #fff;
+}
+
+.footer-links-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-links-menu a {
+  font-size: 14px;
+  font-family: "Play", sans-serif;
+}
+
+.footer-legal {
+  background-color: #000000;
+  color: #fff;
+  padding: 40px;
+  font-size: 12px;
+}
+
+.footer-legal-tswlogo {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.footer-legal-logo {
+  width: 75px;
+}
+
+.footer-legal b {
+  color: red;
+}
+
+.footer-legal span {
+  display: inline-block;
 }
