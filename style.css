@@ -513,7 +513,7 @@ footer li {
   text-decoration: none;
 }
 
-.section-4-descriptions #image-text {
+.section-4-descriptions .image-text {
   color: #fff;
   margin-left: 10px;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
@@ -522,7 +522,7 @@ footer li {
   text-decoration: none;
 }
 
-.section-4-descriptions #image-text:hover {
+.section-4-descriptions .image-text:hover {
   text-decoration: underline;
 }
 
