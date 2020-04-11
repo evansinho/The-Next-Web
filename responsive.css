@@ -43,16 +43,16 @@
     width: 33.33%;
   }
 
-  .md-none {
-    display: none;
-  }
-
   .section-1 {
-    margin-top: 50px;
+    margin-top: 110px;
   }
 
   .section-1 h2 {
     font-size: 16px;
+  }
+
+  .md-block {
+    display: block;
   }
 }
 
@@ -84,14 +84,14 @@
     display: none;
   }
 
-  .md-block {
-    display: block;
-  }
-
   .section-1 {
-    margin-top: 125px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
+  }
+
+  .mini-logo {
+    padding: 16px 20px;
+    height: 48px;
   }
 
   .section-1-1,
