@@ -41,6 +41,15 @@ footer li {
   display: inline;
 }
 
+.section-5-header ul li {
+  font-size: 16px;
+  line-height: 18px;
+  color: #f42;
+  text-decoration: none;
+  margin: 0 5px;
+  display: inline;
+}
+
 .item-footer a {
   text-decoration: none;
   font-size: 13px;
@@ -64,10 +73,17 @@ footer li {
   text-decoration: none;
   color: #b6b6b6;
   font-size: 14px;
-  font-family: "Play", sans-serif;
+  font-family: 'Play', sans-serif;
 }
 
 .section-3-header ul li a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #f42;
+  text-decoration: none;
+}
+
+.section-5-header ul li a {
   font-size: 16px;
   line-height: 18px;
   color: #f42;
@@ -299,6 +315,13 @@ footer li {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.section-5-header h2 {
+  color: #f42;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .section-1 div h2 {
   color: white;
 }
@@ -421,12 +444,20 @@ footer li {
   justify-content: space-between;
 }
 
+.section-5-header {
+  max-width: 1152px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* section 4 */
 
 .image-1 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/slack-interface-customize-368x276.jpg")
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/slack-interface-customize-368x276.jpg')
     100% 100% no-repeat;
   background-size: cover;
 }
@@ -434,7 +465,7 @@ footer li {
 .image-2 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_26d7fdfc-368x276.png")
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_26d7fdfc-368x276.png')
     100% 100% no-repeat;
   background-size: cover;
 }
@@ -442,7 +473,7 @@ footer li {
 .image-3 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/skype-video-calling-on-microsoft-edge1-368x276.jpg")
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/skype-video-calling-on-microsoft-edge1-368x276.jpg')
     100% 100% no-repeat;
   background-size: cover;
 }
@@ -450,14 +481,14 @@ footer li {
 .image-4 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule-368x276.jpg")
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule-368x276.jpg')
     100% 100% no-repeat;
 }
 
 .image-5 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/128939125-368x276.jpg")
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/128939125-368x276.jpg')
     100% 100% no-repeat;
   background-size: cover;
 }
@@ -465,7 +496,7 @@ footer li {
 .image-6 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg")
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg')
     100% 100% no-repeat;
   background-size: cover;
 }
@@ -473,7 +504,7 @@ footer li {
 .image-7 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg")
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg')
     100% 100% no-repeat;
   background-size: cover;
 }
@@ -481,7 +512,7 @@ footer li {
 .image-8 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/montreux-qello-jazz-festival-free-shows-live-music-368x276.jpg")
+    url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/montreux-qello-jazz-festival-free-shows-live-music-368x276.jpg')
     100% 100% no-repeat;
   background-size: cover;
 }
@@ -516,7 +547,7 @@ footer li {
 .section-4-descriptions .image-text {
   color: #fff;
   margin-left: 10px;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'ARS Maquette', 'Helvetica Neue', Arial, sans-serif;
   font-size: 18px;
   font-weight: 800;
   text-decoration: none;
@@ -544,7 +575,7 @@ footer li {
 }
 
 .content-below-list ul li::before {
-  content: "\2022";
+  content: '\2022';
   color: #f42;
   font-weight: bold;
   display: inline-block;
@@ -645,7 +676,7 @@ footer {
 
 .footer-links-menu-a {
   font-size: 14px;
-  font-family: "Play", sans-serif;
+  font-family: 'Play', sans-serif;
 }
 
 .footer-legal {
