@@ -51,8 +51,8 @@
     font-size: 16px;
   }
 
-  .md-block {
-    display: block;
+  .md-none {
+    display: none;
   }
 }
 
